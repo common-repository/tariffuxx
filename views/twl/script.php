@@ -1,0 +1,1 @@
+<?php echo (@$config_data) ? html_entity_decode(esc_html(twl_get_twl_script($config_data))) : "" ?>
